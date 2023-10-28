@@ -1,3 +1,13 @@
+/*
+Assignment No. : 8
+
+Name : Daphal Chaitanya Ramdas
+Roll No. : 35015
+Problem Statemnt : Implement the C program for Disk Scheduling Algorithms: SSTF, SCAN, C-Look
+considering the initial head position moving away from the spindle.
+*/
+
+
 #include <stdio.h>
 //#inlude<Maths.h>
 #include <limits.h>
