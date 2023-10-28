@@ -1,0 +1,6 @@
+
+Total Words := 14
+
+Total Lines := 3
+
+Total Charactes := 102
