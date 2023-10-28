@@ -29,9 +29,9 @@ int main()
 	key_t key;
 	char *shm, *s;
 
-	key = 1; // 5679
+	key = 5679; // 
 
-	if ((shmid = shmget(key, MAXSIZE, 2)) < 0)
+	if ((shmid = shmget(key, MAXSIZE, 0666)) < 0)
 		die("shmget");
 
 	if ((shm = shmat(shmid, NULL, 0)) == (char *)-1)
